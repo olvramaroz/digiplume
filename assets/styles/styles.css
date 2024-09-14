@@ -1,0 +1,146 @@
+/* BREAKPOINTS */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+}
+
+/* Tablets (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+}
+
+/* ************************************************** */
+
+/* 
+SALMON : bg #fff7f3 -- txt #9f5c77
+BLUE : bg #EDF9FE -- txt #001C55
+GREEN : bg #f5fff2 -- txt #1C494C
+EARTH : bg #FDF6EE -- txt #47280B
+LEMON :bg #FEF9DB -- txt #5C452F
+PURPLE : bg #F6F2FF -- txt #422849
+ROSE ET BLEU: bg #FFF7F7 -- txt #021963
+*/
+
+/* ************************************************** */
+
+/* FONTS */
+/*Main Font*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/*Context Font*/
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+/* ************************************************** */
+/* ************************************************** */
+
+/* GENERAL */
+body,
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body {
+    /* background: rgb(29, 29, 29);*/
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+ul {
+    list-style: square outside none;
+}
+
+a {
+    color: inherit;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ************************************************** */
+/* ************************************************** */
+
+/* TYPOGRAPHY */
+h1,
+h2,
+h3,
+h4,
+h3,
+h6 {
+  clear: both;
+  color: #001C55;
+  padding: 0;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+/*--General Title Mobile--*/
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+}
+
+
+/* ************************************************** */
+/* ************************************************** */
+
+/* HOMEPAGE */
+
+#homepage{
+    background: #EDF9FE;
+    color: #0F1B61;
+}
